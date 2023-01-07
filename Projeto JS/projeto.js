@@ -308,11 +308,7 @@ function vetor() {
     numeros.unshift(lista2);
     numeros.unshift(lista1);
     numeros.unshift(lista);
-    numeros.sort(function(a,b){
-        if(a > b) return 1;
-        if(a < b) return -1;
-        return 0;
-    })
+    numeros.sort((a, b) => a - b);
 
     texto.innerHTML = `O números em ordem crescentes são: ${numeros}`
     
