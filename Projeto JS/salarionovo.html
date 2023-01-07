@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Peralta&display=swap" rel="stylesheet">
+    <title>Salário novo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body2">
+    <h1 class="titulo1">Salário novo</h1>
+    <div>
+        <p>Digite seu salário atual:</p>
+        <input type="text" id="salatual">
+    </div>
+    <div>
+        <p>Digite o percentual de reajuste:</p>
+        <input type="number" id="perrea">
+    </div>
+    <div>
+        <button type="submit" onclick="salarionovo()">Verificar</button>
+    </div>
+    <p id="texto"></p>
+    <p id="texto1"></p>
+    <button id="voltar" type="submit" onclick="voltar()"">Voltar</button>
+</body>
+<script src="./projeto.js"></script>
+</html>

@@ -1,0 +1,93 @@
+@media (min-width: 1300px){
+    body{
+        zoom: 0.8;
+    }
+}
+
+html{
+    min-height: 100vh;
+}
+
+.body{
+    text-align: center;
+    background-image: linear-gradient(45deg, #5A42E6, #4176FA, #679DFA, #84C3FA, #81E3FA);
+    font-family: 'Peralta', cursive;
+}
+.body1{
+    text-align: center;
+    background-image: linear-gradient(45deg, #F2114B, #FC2212, #E6461B, #FC6712, #F28311);
+    font-family: 'Peralta', cursive;
+}
+.body2{
+    text-align: center;
+    background-image: linear-gradient(45deg, #F2810C, #FCA40D, #E6A801, #FCD50D, #F2E30C);
+    font-family: 'Peralta', cursive;
+}
+.body3{
+    text-align: center;
+    background-image: linear-gradient(45deg, #D3F20C, #C6FF15, #92E614, #0DFC30, #0CF26F);
+    font-family: 'Peralta', cursive;
+}
+.body4{
+    text-align: center;
+    background-image: linear-gradient(45deg, #259CF5, #237BFF, #2450E6, #202CFF, #321CF5);
+    font-family: 'Peralta', cursive;
+}
+
+div {
+    margin-top: 30px;
+}
+
+.titulo{
+    margin-top: 200px;
+    font-size: 45px;
+    margin-bottom: 80px;
+    text-shadow: 2px 2px 2px rgb(197, 191, 191);
+}
+
+.titulo1{
+    font-size: 45px;
+    margin-top: 150px;
+    margin-bottom: 60px;
+    text-shadow: 2px 2px 2px rgb(197, 191, 191);
+}
+
+.titulo2{
+    font-size: 45px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    text-shadow: 2px 2px 2px rgb(197, 191, 191);
+}
+
+input{
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-family: 'Peralta', cursive;
+    font-size: 18px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-family: 'Peralta', cursive;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: grey;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+
+#voltar{
+    margin-top: 10px;
+}
